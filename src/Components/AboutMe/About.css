@@ -1,0 +1,269 @@
+.Infomain {
+  background-color: var(--lightblue);
+  padding: 1rem 4rem;
+  display: flex;
+  color: var(--darkFont);
+  height: 100%;
+  flex-direction: column;
+}
+.info{
+  font-size: 2.5rem;
+  color: #7799A8;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}
+.content {
+  height: 100%;
+  width: 78.5625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  /* padding: 1.25rem 4.375rem;
+    margin: 0.4375rem 1.125rem; */
+}
+.skills_edu_work {
+  /* width: 78.5625rem; */
+  height: 51.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+.skills {
+  width: 24.6875rem;
+  height: 51.75rem;
+  background-color: #010d15;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.skillspan{
+    font-size: 3.125rem;
+    color: #7799A8  ;
+}
+.edu_work {
+  width: 51.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(2, 1fr) */
+}
+.edu {
+  display: flex;
+  justify-content: space-between;
+}
+.school {
+  width: 24.6875rem;
+  height: 25rem;
+  background-color: #010d15;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1.125rem;
+}
+.school span {
+  font-size: 4rem;
+  color: #7dcc75;
+}
+.school span:last-child{
+  font-size: 1.375rem;
+}
+.school img {
+  width: 3rem;
+}
+
+
+.college {
+  width: 24.6875rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--whiteFont);
+}
+.college span {
+  margin-top: 6rem;
+  margin-left: 0.75rem;
+  font-size: 1.625rem;
+  text-decoration: none;
+}
+.college span img{
+    margin-left: 0.125rem;
+    width: 1.5rem;
+}
+.college p {
+  margin-left: 0.75rem;
+  margin-top: 0.3125rem;
+}
+.work {
+  width: 100%;
+  height: 24.4375rem;
+  background-color: #010d15;
+  display: flex;
+}
+.pic {
+  display: flex;
+  width: 54%;
+  background-image: var(--work-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #4b7c92;
+  font-size: 3.875rem;
+}
+.work_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.4375rem 5.5625rem;
+  background: linear-gradient(to right, #010d15, rgba(73, 122, 145, 0.27));
+}
+.company {
+  font-size: 2.5rem;
+  color: #99bbc8;
+}
+.position {
+  margin-top: 1.375rem;
+}
+.role {
+  font-size: 1.375rem;
+  color: #fff;
+}
+.timespan {
+  font-size: 1rem;
+  color: #99bbc8;
+}
+.cert_award_hobby {
+  /* width: 78.5625rem; */
+  height: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cert {
+  width: 24.6875rem;
+  background-color: #001e27;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 3.5rem;
+  color: #527481;
+  margin-left: 2.125rem;
+  margin-top: 5.25rem;
+  margin-bottom: 1.875rem; /* Added for spacing between header and content */
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Added for spacing between items */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-left: 2.125rem;
+  gap: 0.9375rem; /* Added for spacing between icon and details */
+}
+
+.icon {
+  width: 3.75rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 3.5rem;
+  height: 3.125rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.125rem;
+  color: white;
+  font-weight: bold;
+}
+
+.org {
+  font-size: 1rem;
+  color: #527481;
+}
+.award {
+  width: 24.6875rem;
+  background-color: #010d15;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #7dcc75;
+  text-align: left;
+  gap: 1.25rem;
+  font-size: 1.5rem;
+}
+.award span {
+  margin-left: 2.1875rem;
+}
+.awardheader {
+  font-size: 2.5rem;
+}
+.client {
+  font-size: 1.5rem;
+  color: #99bbc8;
+}
+.hobbies-card {
+    width: 24.6875rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-color: #001E27; /* Added background color */
+  }
+  
+  .hobbies-card h2 {
+    font-size: 3.5rem;
+    color: #fff; /* Matches your certificate header color */
+    text-align: right; /* Right alignment */
+    margin-right: 2.125rem;
+    margin-top: 5.625rem;
+  }
+  
+  .hobby-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Right alignment for content */
+    animation: fade 1s ease-in-out;
+    margin-bottom: auto; /* Pulls content up */
+    margin-right: 2.125rem;
+  }
+  
+  .hobby-name {
+    font-size: 1.375rem;
+    text-align: right;
+    margin-top: -2.25rem;
+  }
+    
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

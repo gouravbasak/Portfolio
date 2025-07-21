@@ -1,0 +1,18 @@
+:root
+{
+    --darkBlue: #011A28;
+    --lightblue :#002531;
+    --darkorange : #FC7A02;
+    --lightorange : #FF800B;
+    --headcolor : #7C9DAB;
+    --bodycolor :#5A7D8A;
+    --whiteFont: #E7E9EA;
+    --darkFont : #ACBCC6;
+
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--lightblue); /* match your app bg color */
+font-family: 'Inter', sans-serif;
+}

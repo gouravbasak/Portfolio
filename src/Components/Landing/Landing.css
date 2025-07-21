@@ -1,0 +1,66 @@
+.landingmain{
+    background-color: var(--darkBlue);
+    padding: 1rem 4rem;
+    display: flex;
+    color: var(--darkFont);
+    height: 100%;
+}
+.userimg img{
+    width: 30rem;
+}
+.userintro{
+    display: flex;
+    flex-direction: column;
+    padding:  0px 1rem;
+}
+.banner{
+    /* width: 335px; */
+    height: 2.125rem;
+    padding: 0.125rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 9.375rem;
+    gap: 1.5625rem;
+}
+.banner img{
+    width: 2rem;
+}
+.banner span{
+    color: var(--lightorange);
+}
+.intro{
+    width: 40.375rem;
+    height: 16.5rem;
+    margin-left: -64px;
+    margin-top: 2.625rem;
+}
+.intro span{
+    font-size: 4.5rem;
+    color: var(--whiteFont);
+}
+.subintro{
+ width: 26.25rem;
+ height: 6.875rem;
+ margin-left: 10.625rem;
+ margin-top: 3.125rem;
+ line-height: 1.5rem;
+}
+.subintro span{
+    font-size: 1rem;
+}
+.resume{
+    height: 2.5rem;
+    margin-left: 38rem;
+    margin-top: 4rem;
+}
+.resume a{
+display: inline-flex;
+  align-items: center;
+ text-decoration: none;
+
+}
+.resume img{
+    width: 7.5rem;
+    cursor: pointer;
+}

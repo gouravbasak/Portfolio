@@ -1,0 +1,86 @@
+.carousel-container {
+    position: relative;
+    height: 36.25rem;
+    width: 18.25rem;
+    margin: 0 auto; 
+  }
+   
+  .carousel-item {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+   
+  .carousel-item.active {
+    opacity: 1;
+  }
+  .cr_body {
+    width: 16.25rem;
+    height: 36.25rem;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #C3DAE3;
+    display: flex;
+    flex-direction: column;
+  }
+.front{
+    background: linear-gradient(to bottom, #387987 0%, #386465 100%);
+}
+.front span{
+    font-size: 2rem;
+    color: #fff;
+}
+.backend{
+    background: linear-gradient(to bottom, #507D5A 0%, #112B2B 100%);
+}
+.backend span{
+    font-size: 2rem;
+    color: #C3DAE3;
+}
+.tools{
+    background: linear-gradient(to bottom, #183F4E 0%, #11222B 100%);
+}
+.tools span{
+    font-size: 2rem;
+    color: #C3DAE3;
+}
+.stack_content{
+    height: 30.625rem;
+    margin-top: 1.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stack{
+    width: 15rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+    border-radius: .5rem;
+    padding: 0rem .3125rem;
+}
+.stack img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.stack span {
+    font-size: 1.5rem;
+}
+.stack:nth-child(even) {
+    background-color: #FCFCFC;
+  }
+  
+.stack:nth-child(odd){
+    background-color: #0A1218;   
+}
+.stack:nth-child(even) span {
+    color: #000 ;
+  }
+  
+  .stack:nth-child(odd) span {
+    color: #FCFCFC ;
+  }
+  

@@ -1,0 +1,70 @@
+.navmain{
+    background-color: var(--darkBlue);
+    padding: 2rem 4rem;
+    display: flex;
+    color: var(--darkFont);
+    justify-content: space-between; 
+    overflow-y: visible;
+    height: 1.875rem;
+}
+.nav{
+display: flex;
+padding: 0.25rem;
+ width: 100%; /* Take full width */
+ gap: 15%;
+}
+.name{
+    width: 10.3125rem;
+    font-size: 1.25rem;
+}
+.orange-text {
+  color: var(--darkorange);
+}
+
+.white-text {
+  color: white;
+}
+.opt{
+    display: flex;
+    width: 34.0625rem;
+    padding: 0.25rem;
+    margin: 0rem 4rem;
+}
+.opt ul{
+    display: flex;
+    justify-content: space-between ; 
+    width: 100%; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightblue);
+    width: 3.75rem;
+    height: 16.25rem;
+    padding: 1rem;
+    gap: 2.125rem;
+    align-items: center;
+}
+.contact img{
+    width: 1.375rem;
+    cursor: pointer;
+}
+.contact span{
+    transform: rotate(90deg);
+    background-color: var(--lightorange);
+    display: flex;
+    width: 7.9375rem;
+    height: 2rem;
+    margin-top: 2.1875rem;
+    justify-content: center;
+    color: var(--darkBlue);
+    font-weight: 450;
+}

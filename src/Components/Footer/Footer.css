@@ -1,0 +1,75 @@
+.foot-main{
+    height: 373px;
+      padding: 1rem 4rem;
+      background-color: var(--darkBlue);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    color: #EEEEEE;
+    text-transform: uppercase;
+}
+.talk{
+    display: flex;
+    flex-direction: column;
+}
+.talk1{
+    font-size: 22px;
+}
+.talk2{
+    font-size: 180px;
+    color: #2E3F45;
+}
+.top{
+height: 56px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.top img{
+    width: 52px;
+    height: 52px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+}
+.link{
+    display: flex;
+    width: 612px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    height: 46px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #BABABA;
+    border: 1px solid #465A62;
+}
+.copywrite{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+.orange-text {
+    font-size: 16px;
+    margin-left: .5rem;
+  color: var(--darkorange);
+}
+
+.white-text {
+    font-size: 16px;
+  color: white;
+}
+
