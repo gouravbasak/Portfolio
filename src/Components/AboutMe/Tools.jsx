@@ -6,7 +6,7 @@ import github from '../../assets/git.png';
 import azure from '../../assets/ado.png';
 import netlify from '../../assets/netlify.png';
 import cicd from '../../assets/cicd.png';
-import figma from '../../assets/FTigma.png';
+import figma from '../../assets/Figma.png';
 import jest from '../../assets/jest.png';
 const Tools = () => {
   return (
