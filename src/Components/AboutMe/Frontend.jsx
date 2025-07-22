@@ -7,7 +7,7 @@ import vite from '../../assets/Vitejs.png'
 import mui from '../../assets/material-ui.png'
 import html from '../../assets/html.png'
 import css from '../../assets/Css.png'
-import js from '../../assets/js.png'
+import js from '../../assets/Js.png'
 const Frontend = () => {
   return (
     <div className='cr_body front'>
