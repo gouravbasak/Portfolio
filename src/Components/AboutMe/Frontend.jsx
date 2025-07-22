@@ -6,7 +6,7 @@ import next from '../../assets/next.png'
 import vite from '../../assets/Vitejs.png'
 import mui from '../../assets/material-ui.png'
 import html from '../../assets/html.png'
-import css from '../../assets/css.png'
+import css from '../../assets/Css.png'
 import js from '../../assets/js.png'
 const Frontend = () => {
   return (
