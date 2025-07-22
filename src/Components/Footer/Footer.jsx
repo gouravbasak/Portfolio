@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="down">
         <div className="link">
           <a href="https://www.linkedin.com/in/gourav-basak/" target='_blank'>LinkedIn</a>
-          <a  href="https://drive.google.com/file/d/1Fu_d5Lq2bqmNmpjr3WwqP855Abls2wyy/view?usp=drive_link"
+          <a  href="https://drive.google.com/file/d/1iKuieZ96bHcePfBBRTC9GshJlQJn2tld/view?usp=sharing"
             target="_blank">CV</a>
           <a href="https://github.com/gouravbasak" target='_blank'>Github</a>
         </div>
