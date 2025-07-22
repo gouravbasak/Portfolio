@@ -36,7 +36,7 @@ const Landing = () => {
         </div>
         <div className="resume">
           <a
-            href="https://drive.google.com/file/d/1Fu_d5Lq2bqmNmpjr3WwqP855Abls2wyy/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1iKuieZ96bHcePfBBRTC9GshJlQJn2tld/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
