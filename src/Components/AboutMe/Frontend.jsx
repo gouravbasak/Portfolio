@@ -1,7 +1,7 @@
 import React from 'react';
 import './Techstack.css';
 import rj from '../../assets/react.png';
-import rd from '../../assets/redux.png';
+import rd from '../../assets/Redux.png'; 
 import next from '../../assets/next.png'
 import vite from '../../assets/Vitejs.png'
 import mui from '../../assets/material-ui.png'
